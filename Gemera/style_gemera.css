@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+html {scroll-behavior: smooth;}
+
+/** ********************************************************************* KOENIGSEGG GEMERA **************************************************************************** **/
+/** 
+Paleta kolorów gemera:
+ciemny zielony  #01868B90 -
+jasny zielony   #00C0AD -
+ciemny niebieski #2B2D42 - 
+jaśniejszy niebieski #002A54 -
+
+**/
+.bg {
+    background-image: linear-gradient(to right, #002A54, #2B2D42);
+}
+/** menu **/
+div.menu {
+    margin-top: -9vw;
+    margin-left: 1.2vw;
+    height: 8vw;
+    width:99.5%;
+    position: fixed;
+    clear: both;
+    background-image: linear-gradient(to right, #002A54, #2B2D42);
+    z-index: 1;
+}
+
+div.menu-link {
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    width: 19vw;
+    float: left;
+    border-bottom: 2px #00C0AD solid;
+    border-left: 2px #00C0AD solid;
+    transition-duration: 1s;
+}
+div.menu-link-r {
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    width: 19vw;
+    float: left;
+    border-bottom: 2px #00C0AD solid;
+    border-left: 2px #00C0AD solid;
+    border-right: 2px #00C0AD solid;
+    transition-duration: 1s;
+}
+div.menu-link:hover {
+    background-color: #334C87;
+}
+div.menu-link:hover p {
+    color: #00C0AD;
+}
+div.menu-link-r:hover {
+    background-color: #334C87;
+}
+div.menu-link-r:hover p {
+    color: #00C0AD;
+}
+
+
+/** TEXT **/
+
+p.title {
+    font-size: 5vw;
+    color: #00C0AD;
+}
+p.subtitle {
+    font-size: 2.5vw;
+    color: #00C0AD;
+}
+
+p.menu-text {
+    font-size: 1.5vw;
+    color: #01868B90;
+    transition-duration: 1s;
+}
+
+p.menu-text:hover {
+    color: #00C0AD;
+}
+
+p.menu-text-h {
+    font-size: 2vw;
+    display: none;
+    color: #01868B90;
+}
+
+p.text {
+    font-size: 2vw;
+    color: #01868B90;
+}
+
+
+/** content **/
+
+div.content {
+    width: 100%;
+    margin-top: 9vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+div.text-box {
+    width: 100%;
+    clear:both;
+    text-align: center;
+    float: left;
+}
+table.table {
+    border: 2px solid #00C0AD;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+td.td {
+    border: 2px solid #00C0AD;
+}
+
+p.table-t {
+    font-size: 1.8vw;
+    padding: 0.1vw;
+    color: #01868B90;
+}
+
+/** menu out **/
+div.out {
+    display: flex;
+    justify-content: center;
+    clear:both;
+}
+div.menu-out {
+    margin-left: 0.5%;
+    height: 3vw;
+    width:100%;
+    clear: both;
+}
+div.out-link {
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    width: 33%;
+    float: left;
+    border-bottom: 2px #00C0AD solid;
+    border-left: 2px #00C0AD solid;
+    border-top: 2px #00C0AD solid;
+    transition-duration: 1s;
+}
+div.out-link-r {
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    width: 33%;
+    float: left;
+    border: 2px #00C0AD solid;
+    transition-duration: 1s;
+}
+div.out-link:hover {
+    background-color: #334C87;
+}
+div.out-link-r:hover {
+    background-color: #334C87;
+}
+
+div.out-link:hover p {
+    color: #00C0AD;
+}
+div.out-link-r:hover p {
+    color: #00C0AD;
+}
+
+p {
+    font-family: 'Alata';
+}
+
+
+div.filler-box {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+div.gallery-box {
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.gallery-img {
+    max-width: 600px;
+    width: 24vw;
+    float: left;
+    z-index: 10;
+}

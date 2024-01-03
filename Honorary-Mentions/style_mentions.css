@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+html {scroll-behavior: smooth;}
+
+/** ********************************************************************* KOENIGSEGG GEMERA **************************************************************************** **/
+/** 
+ciemny niebieski #5680E9 - 
+jasny niebieski  #84CEEB -
+średni niebieski #5AB9EA -
+wyblakły fiolet  #C1C8E4 -
+mocny fiolet     #8860D0 -
+
+**/
+.bg {
+    background-image: linear-gradient(to right, #8860D0, #5680E9);
+}
+/** menu **/
+div.menu {
+    margin-top: -9vw;
+    margin-left: 1.2vw;
+    height: 8vw;
+    width:99.5%;
+    position: fixed;
+    clear: both;
+    background-image: linear-gradient(to right, #8860D0, #5680E9);
+    z-index: 1;
+}
+
+div.menu-link {
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    width: 19vw;
+    float: left;
+    border-bottom: 2px #C1C8E4 solid;
+    border-left: 2px #C1C8E4 solid;
+    transition-duration: 1s;
+}
+div.menu-link-r {
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    width: 19vw;
+    float: left;
+    border-bottom: 2px #C1C8E4 solid;
+    border-left: 2px #C1C8E4 solid;
+    border-right: 2px #C1C8E4 solid;
+    transition-duration: 1s;
+}
+div.menu-link:hover {
+    background-color: #8860D0;
+}
+div.menu-link:hover p {
+    color: #C1C8E4;
+}
+div.menu-link-r:hover {
+    background-color: #8860D0;
+}
+div.menu-link-r:hover p {
+    color: #C1C8E4;
+}
+
+
+/** TEXT **/
+
+p.title {
+    font-size: 5vw;
+    color: #C1C8E4;
+}
+p.subtitle {
+    font-size: 2.5vw;
+    color: #C1C8E4;
+}
+
+p.menu-text {
+    font-size: 1.5vw;
+    color: #84CEEB;
+    transition-duration: 1s;
+}
+
+p.menu-text:hover {
+    color: #C1C8E4;
+}
+
+p.menu-text-h {
+    font-size: 2vw;
+    display: none;
+    color: #84CEEB;
+}
+
+p.text {
+    font-size: 2vw;
+    color: #84CEEB;
+}
+
+
+/** content **/
+
+div.content {
+    width: 100%;
+    margin-top: 9vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+div.text-box {
+    width: 100%;
+    clear:both;
+    text-align: center;
+    float: left;
+}
+table.table {
+    border: 2px solid #C1C8E4;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+td.td {
+    border: 2px solid #C1C8E4;
+}
+
+p.table-t {
+    font-size: 1.8vw;
+    padding: 0.1vw;
+    color: #84CEEB;
+}
+
+/** menu out **/
+div.out {
+    display: flex;
+    justify-content: center;
+    clear:both;
+}
+div.menu-out {
+    margin-left: 0.5%;
+    height: 3vw;
+    width:100%;
+    clear: both;
+}
+div.out-link {
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    width: 33%;
+    float: left;
+    border-bottom: 2px #C1C8E4 solid;
+    border-left: 2px #C1C8E4 solid;
+    border-top: 2px #C1C8E4 solid;
+    transition-duration: 1s;
+}
+div.out-link-r {
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    width: 33%;
+    float: left;
+    border: 2px #C1C8E4 solid;
+    transition-duration: 1s;
+}
+div.out-link:hover {
+    background-color: #8860D0;
+}
+div.out-link-r:hover {
+    background-color: #8860D0;
+}
+
+div.out-link:hover p {
+    color: #C1C8E4;
+}
+div.out-link-r:hover p {
+    color: #C1C8E4;
+}
+
+p {
+    font-family: 'Alata';
+}
+
+
+div.filler-box {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+div.gallery-box {
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.gallery-img {
+    max-width: 600px;
+    width: 24vw;
+    float: left;
+    z-index: 10;
+}
